@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trigonometry" parallel="methods" thread-count="3">
+    <test name="trigonometry-test">
+        <groups>
+            <run>
+                <include name="trigonometry"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.epam.cdp.tests"/>
+        </packages>
+    </test>
+</suite>

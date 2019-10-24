@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Common suite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="com.epam.cdp.listeners.TestListeners"/>
+    </listeners>
+
+    <test name="Sub Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.SubCalcTest"/>
+        </classes>
+    </test>
+    <test name="Sum Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.SumCalcTest"/>
+        </classes>
+    </test>
+    <test name="Div Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.DivCalcTest"/>
+        </classes>
+    </test>
+    <test name="Mult Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.MultCalcTest"/>
+        </classes>
+    </test>
+    <test name="Pow Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.PowCalcTest"/>
+        </classes>
+    </test>
+    <test name="Sqrt Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.SqrtCalcTest"/>
+        </classes>
+    </test>
+    <test name="Tg Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.TgCalcTest"/>
+        </classes>
+    </test>
+    <test name="Ctg Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.CtgCalcTest"/>
+        </classes>
+    </test>
+    <test name="Sin Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.SinCalcTest"/>
+        </classes>
+    </test>
+    <test name="Cos Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.CosCalcTest"/>
+        </classes>
+    </test>
+    <test name="IsPositive Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.IsPositiveCalcTest"/>
+        </classes>
+    </test>
+    <test name="IsNegative Calc Test">
+        <classes>
+            <class name="com.epam.cdp.tests.IsNegativeCalcTest"/>
+        </classes>
+    </test>
+</suite>

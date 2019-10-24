@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Basic Operations" parallel="methods" thread-count="3">
+    <test name="basic-operations-test">
+        <groups>
+            <run>
+                <include name="basic operations"/>
+                <exclude name="trigonometry"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.epam.cdp.tests"/>
+        </packages>
+    </test>
+</suite>
